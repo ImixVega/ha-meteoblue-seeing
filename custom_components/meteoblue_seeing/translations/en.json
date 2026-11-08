@@ -1,0 +1,22 @@
+{
+  "config": {
+    "step": {
+      "user": {
+        "title": "Meteoblue Astronomy Seeing",
+        "description": "Enter the location for the forecast. Page refresh: every 3 hours; current-hour sensors advance every hour.",
+        "data": {
+          "name": "Location name",
+          "latitude": "Latitude",
+          "longitude": "Longitude",
+          "timezone": "Time zone (e.g. Europe/Warsaw)"
+        }
+      }
+    },
+    "error": {
+      "invalid_timezone": "Invalid time zone"
+    },
+    "abort": {
+      "already_configured": "This location is already configured"
+    }
+  }
+}

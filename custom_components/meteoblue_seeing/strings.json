@@ -1,0 +1,22 @@
+{
+  "config": {
+    "step": {
+      "user": {
+        "title": "Meteoblue Astronomy Seeing",
+        "description": "Lokalizacja prognozy. Strona jest pobierana co 3 godziny; sensory przełączają godzinę automatycznie.",
+        "data": {
+          "name": "Nazwa lokalizacji",
+          "latitude": "Szerokość geograficzna",
+          "longitude": "Długość geograficzna",
+          "timezone": "Strefa czasowa (np. Europe/Warsaw)"
+        }
+      }
+    },
+    "error": {
+      "invalid_timezone": "Nieprawidłowa strefa czasowa"
+    },
+    "abort": {
+      "already_configured": "Ta lokalizacja jest już dodana"
+    }
+  }
+}

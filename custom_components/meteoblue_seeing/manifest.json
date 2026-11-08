@@ -1,0 +1,14 @@
+{
+  "domain": "meteoblue_seeing",
+  "name": "Meteoblue Astronomy Seeing",
+  "version": "0.1.0",
+  "config_flow": true,
+  "documentation": "https://github.com/ImixVega/ha-meteoblue-seeing#readme",
+  "requirements": [],
+  "codeowners": [
+    "@ImixVega"
+  ],
+  "integration_type": "service",
+  "iot_class": "cloud_polling",
+  "issue_tracker": "https://github.com/ImixVega/ha-meteoblue-seeing/issues"
+}
